@@ -1,0 +1,51 @@
+{
+  "name": "@diyawanna/lan-bridge",
+  "version": "0.1.0",
+  "description": "A module for LAN-based bi-directional communication between web and mobile applications using WebSockets.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "client.js",
+    "react-component.jsx",
+    "mobile-integration.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo \"Preparing for publish...\""
+  },
+  "keywords": [
+    "lan",
+    "bridge",
+    "websocket",
+    "react",
+    "mobile",
+    "communication",
+    "real-time",
+    "file-transfer",
+    "local-network",
+    "cross-platform"
+  ],
+  "author": "diyawanna",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diyawanna/lan-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diyawanna/lan-bridge/issues"
+  },
+  "homepage": "https://github.com/diyawanna/lan-bridge#readme",
+  "dependencies": {
+    "ws": "^8.18.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
