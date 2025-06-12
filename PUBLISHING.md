@@ -1,4 +1,4 @@
-# Publishing Guide for @diyawanna/lan-bridge
+# Publishing Guide for @diyawanna/lan-bridge-core
 
 ## Prerequisites
 
@@ -63,7 +63,7 @@ npm publish
 
 After publishing, verify your package:
 ```bash
-npm view @diyawanna/lan-bridge
+npm view @diyawanna/lan-bridge-core
 ```
 
 ## Version Management
@@ -90,18 +90,18 @@ cd test-installation
 npm init -y
 
 # Install your published module
-npm install @diyawanna/lan-bridge
+npm install @diyawanna/lan-bridge-core
 
 # Test basic functionality
-node -e "const LANBridge = require('@diyawanna/lan-bridge'); console.log('Module loaded successfully');"
+node -e "const LANBridge = require('@diyawanna/lan-bridge-core'); console.log('Module loaded successfully');"
 ```
 
 ## Common Issues and Solutions
 
 ### 1. Package Name Already Exists
-If `@diyawanna/lan-bridge` is taken, try:
-- `@yourusername/lan-bridge`
-- `@diyawanna/lan-bridge-v2`
+If `@diyawanna/lan-bridge-core` is taken, try:
+- `@yourusername/lan-bridge-core`
+- `@diyawanna/lan-bridge-core-v2`
 - `lan-bridge-diyawanna`
 
 ### 2. Authentication Issues

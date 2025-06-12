@@ -1,6 +1,6 @@
 {
-  "name": "@diyawanna/lan-bridge",
-  "version": "0.1.0",
+  "name": "@diyawanna/lan-bridge-core",
+  "version": "0.1.1",
   "description": "A module for LAN-based bi-directional communication between web and mobile applications using WebSockets.",
   "main": "index.js",
   "files": [
@@ -26,18 +26,19 @@
     "real-time",
     "file-transfer",
     "local-network",
-    "cross-platform"
+    "cross-platform",
+    "Diyawanna"
   ],
   "author": "diyawanna",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diyawanna/lan-bridge.git"
+    "url": "https://github.com/Diyawanna/npm-lan-bridge-core.git"
   },
   "bugs": {
-    "url": "https://github.com/diyawanna/lan-bridge/issues"
+    "url": "https://github.com/Diyawanna/npm-lan-bridge-core/issues"
   },
-  "homepage": "https://github.com/diyawanna/lan-bridge#readme",
+  "homepage": "https://github.com/Diyawanna/npm-lan-bridge-core#readme",
   "dependencies": {
     "ws": "^8.18.2"
   },

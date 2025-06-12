@@ -92,7 +92,7 @@ const LANBridgeComponent = ({ serverUrl = 'ws://localhost:8080' }) => {
     };
 
     return (
-        <div className="lan-bridge-container" style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
+        <div className="lan-bridge-core-container" style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
             <div className="connection-status" style={{ 
                 padding: '10px', 
                 borderRadius: '5px', 

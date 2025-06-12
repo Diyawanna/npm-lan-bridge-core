@@ -1,8 +1,8 @@
-# Mobile App Integration Guide for @diyawanna/lan-bridge
+# Mobile App Integration Guide for @diyawanna/lan-bridge-core
 
 ## Overview
 
-This document outlines how mobile applications can integrate with the `@diyawanna/lan-bridge` WebSocket server to enable bi-directional communication with web applications on the same local network.
+This document outlines how mobile applications can integrate with the `@diyawanna/lan-bridge-core` WebSocket server to enable bi-directional communication with web applications on the same local network.
 
 ## Mobile App Architecture
 

@@ -1,10 +1,10 @@
-# @diyawanna/lan-bridge
+# @diyawanna/lan-bridge-core
 
 A powerful npm module for enabling bi-directional communication between web and mobile applications over local area networks using WebSockets.
 
 ## Overview
 
-`@diyawanna/lan-bridge` provides a simple yet robust solution for real-time communication between web applications and mobile devices on the same local network. This module is perfect for scenarios where you need to share data, files, or messages between different devices without relying on external servers or internet connectivity.
+`@diyawanna/lan-bridge-core` provides a simple yet robust solution for real-time communication between web applications and mobile devices on the same local network. This module is perfect for scenarios where you need to share data, files, or messages between different devices without relying on external servers or internet connectivity.
 
 ## Features
 
@@ -20,12 +20,12 @@ A powerful npm module for enabling bi-directional communication between web and 
 
 Here's a quick look at the web application demonstrating the LAN Bridge in action:
 
-![LAN Bridge Demo](docs/lan-bridge-demo.webp)
+![LAN Bridge Core Demo](docs/lan-bridge-demo.webp)
 
 ## Installation
 
 ```bash
-npm install @diyawanna/lan-bridge
+npm install @diyawanna/lan-bridge-core
 ```
 
 ## Quick Start
@@ -33,7 +33,7 @@ npm install @diyawanna/lan-bridge
 ### 1. Start the Server
 
 ```javascript
-const LANBridge = require("@diyawanna/lan-bridge");
+const LANBridge = require("@diyawanna/lan-bridge-core");
 
 // Start the WebSocket server
 const server = new LANBridge.Server({ port: 8080 });
@@ -46,7 +46,7 @@ console.log("LAN Bridge server running on port 8080");
 
 ```javascript
 // Import the client library
-import LANBridge from "@diyawanna/lan-bridge/client";
+import LANBridge from "@diyawanna/lan-bridge-core/client";
 
 // Create a new bridge instance
 const bridge = new LANBridge("ws://localhost:8080");
@@ -67,7 +67,7 @@ bridge.onMessage("text", (message) => {
 
 ```jsx
 import React from "react";
-import { LANBridgeComponent } from "@diyawanna/lan-bridge/react";
+import { LANBridgeComponent } from "@diyawanna/lan-bridge-core/react";
 
 function App() {
   return (
@@ -150,7 +150,7 @@ For detailed instructions on integrating with mobile applications, please refer 
 Find LAN Bridge servers on your network:
 
 ```javascript
-import { NetworkDiscovery } from "@diyawanna/lan-bridge";
+import { NetworkDiscovery } from "@diyawanna/lan-bridge-core";
 
 const discovery = new NetworkDiscovery();
 const servers = await discovery.findServers();
@@ -258,9 +258,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **Documentation**: [Full API Documentation](https://docs.diyawanna.com/lan-bridge)
-- **Issues**: [GitHub Issues](https://github.com/diyawanna/lan-bridge/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/diyawanna/lan-bridge/discussions)
+- **Documentation**: [Full API Documentation](https://tech.diyawanna.com/docs/lan-bridge)
+- **Issues**: [GitHub Issues](https://github.com/Diyawanna/npm-lan-bridge-core/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Diyawanna/npm-lan-bridge-core/discussions)
 
 ## Changelog
 
